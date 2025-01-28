@@ -1,6 +1,5 @@
 import React from 'react'
 import InnovateX_SS from "../assets/projectSS/InnovateX_SS.png"
-import Vortex from "../assets/projectSS/vortex.png"
 import ZOIP_SS from "../assets/projectSS/ZOIP_SS.png"
 import GrowIt_SS from "../assets/projectSS/GrowIt_SS.png"
 
