@@ -1,5 +1,5 @@
 <<<<<<< HEAD
 # Portfolio
 =======
-Live Here [shivdutt.netlify.app](https://shivdutt.netlify.app/) 🎉🎉
+Live Here [omkarhundre.netlify.app](https://omkarhundre.netlify.app/) 🎉🎉
 >>>>>>> 9fea84c (Initial commit)
