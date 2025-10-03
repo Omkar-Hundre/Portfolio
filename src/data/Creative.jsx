@@ -7,7 +7,7 @@ import PS3 from "../assets/Creative/PS3.png";
 import PS4 from "../assets/Creative/PS4.png";
 import OutputVideo from "../assets/Creative/Output.mp4";
 
-const CREATIVE_PROJECTS = [
+export const creative = [
   {
     id: "short-film-1",
     title: "Short Film - Odessey 2K25",
