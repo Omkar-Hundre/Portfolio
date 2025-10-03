@@ -1,7 +1,26 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import CREATIVE_PROJECTS from "../data/Creative";
+import { creative as CREATIVE_PROJECTS } from "../data/Creative";
 import BlurFade from "./magicui/blur-fade";
+
+const VideoPlayer = ({ url }) => {
+  // Convert YouTube URL to embed URL
+  const getEmbedUrl = (url) => {
+    const videoId = url.split('v=')[1];
+    return `https://www.youtube.com/embed/${videoId}`;
+  };
+
+  return (
+    <iframe
+      width="100%"
+      height="315"
+      src={getEmbedUrl(url)}
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    />
+  );
+};
 
 const CreativeCard = ({ project }) => {
   const [isHovered, setIsHovered] = useState(false);

@@ -5,7 +5,6 @@ import PS1 from "../assets/Creative/PS1.png";
 import PS2 from "../assets/Creative/PS2.png";
 import PS3 from "../assets/Creative/PS3.png";
 import PS4 from "../assets/Creative/PS4.png";
-import OutputVideo from "../assets/Creative/Output.mp4";
 
 export const creative = [
   {
@@ -73,8 +72,8 @@ export const creative = [
     description: "Showcase of VFX work and motion graphics created using After Effects. Includes title sequences, visual effects, and animated graphics.",
     media: {
       type: "video",
-      thumbnail: TN3, // Use first Photoshop design as a thumbnail
-      videoUrl: "/assets/Creative/Output.mp4",  // Update this path
+      thumbnail: TN3,
+      videoUrl: "https://youtu.be/-pN4dNxrRB4", // Updated to YouTube link
       duration: "0:08"
     },
     role: "VFX Artist & Motion Graphics Designer",
@@ -89,4 +88,4 @@ export const creative = [
   }
 ];
 
-export default CREATIVE_PROJECTS;
+export default creative;
