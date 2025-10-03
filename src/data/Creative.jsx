@@ -74,7 +74,7 @@ const CREATIVE_PROJECTS = [
     media: {
       type: "video",
       thumbnail: TN3, // Use first Photoshop design as a thumbnail
-      videoUrl: OutputVideo, // Use local video
+      videoUrl: "/assets/Creative/Output.mp4",  // Update this path
       duration: "0:08"
     },
     role: "VFX Artist & Motion Graphics Designer",
