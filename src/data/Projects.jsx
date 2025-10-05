@@ -88,18 +88,12 @@ export const PROJECTS = [
       "html",
       "css",
     ],
-    codeUrl: "https://github.com/shivdutt-B/cosem",
-    liveUrl: "https://cosem-demo.vercel.app/",
+    liveUrl: "https://youtu.be/iWkT6TT8JnM",
     links: [
       {
         type: "Website",
-        href: "https://cosem-demo.vercel.app/",
+        href: "https://youtu.be/iWkT6TT8JnM",
         icon: "globe",
-      },
-      {
-        type: "Github",
-        icon: "github",
-        href: "https://github.com/shivdutt-B/cosem",
       },
     ],
   },
@@ -118,18 +112,18 @@ export const PROJECTS = [
       "speech",
       "javascript",
     ],
-    codeUrl: "https://github.com/shivdutt-B/ai-patient-monitoring",
-    liveUrl: "https://ai-monitoring-demo.vercel.app/",
+    codeUrl: "https://github.com/Omkar-Hundre/AegisAI",
+    liveUrl: "https://youtu.be/h3A_OyecCoY",
     links: [
       {
         type: "Website",
-        href: "https://ai-monitoring-demo.vercel.app/",
+        href: "https://youtu.be/h3A_OyecCoY",
         icon: "globe",
       },
       {
         type: "Github",
         icon: "github",
-        href: "https://github.com/shivdutt-B/ai-patient-monitoring",
+        href: "https://github.com/Omkar-Hundre/AegisAI",
       },
     ],
   },
@@ -148,18 +142,18 @@ export const PROJECTS = [
       "realtime",
       "admin",
     ],
-    codeUrl: "https://github.com/shivdutt-B/jain-bus-tracking",
-    liveUrl: "https://jain-bus-tracking.vercel.app/",
+    codeUrl: "https://github.com/Omkar-Hundre/bustrackjce",
+    liveUrl: "https://omkar-hundre.github.io/bustrackjce/",
     links: [
       {
         type: "Website",
-        href: "https://jain-bus-tracking.vercel.app/",
+        href: "https://omkar-hundre.github.io/bustrackjce/",
         icon: "globe",
       },
       {
         type: "Github",
         icon: "github",
-        href: "https://github.com/shivdutt-B/jain-bus-tracking",
+        href: "https://github.com/Omkar-Hundre/bustrackjce",
       },
     ],
   }
