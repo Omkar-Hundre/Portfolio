@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{fontawesome5} % for icons
 \input{glyphtounicode}
 
 
@@ -106,22 +107,26 @@
 \begin{document}
 
 \begin{center}
-    \textbf{\Huge \scshape Omkar Hundre} \\ \vspace{1pt}
-    \small +91 862-580-7046 $|$ \href{mailto:hundreomkar7@gmail.com}{\underline{hundreomkar7@gmail.com}} $|$ 
-    \href{https://www.linkedin.com/in/hundreomkar/}{\underline{linkedin.com/in/hundreomkar}} $|$
-    \href{https://github.com/Omkar-Hundre/}{\underline{github.com/omkar-hundre}}
+    {\Huge \scshape Omkar Hundre} \\ \vspace{6pt}
+    \small
+    \href{mailto:hundreomkar7@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ hundreomkar7@gmail.com} $|$
+    \href{https://omkarhundre.netlify.app/}{\raisebox{-0.2\height}\faGlobe\ Portfolio} $|$
+    \href{https://www.linkedin.com/in/hundreomkar/}{\raisebox{-0.2\height}\faLinkedin\ LinkedIn} $|$
+    \href{https://github.com/Omkar-Hundre/}{\raisebox{-0.2\height}\faGithub\ GitHub} $|$
+    \raisebox{-0.2\height}\faPhone\ +91 862-580-7046
 \end{center}
+
 
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
+    {Jain College Of Engineering, Belagavi (Pursuing)}{Belagavi, Karnataka}
+    {Computer Science And Engineering}{Aug. 2023 -- Till Date}
+    \resumeSubheading
       {Kendriya Vidyalaya Karriappa Road, Ahmednagar}{Ahmednagar, Maharashtra}
       {Matric and 12th}{2020 -- 2022}
-    \resumeSubheading
-      {Jain College Of Engineering, Belagavi (Pursuing)}{Belagavi, Karnataka}
-      {Computer Science And Engineering}{Aug. 2023 -- Till Date}
   \resumeSubHeadingListEnd
 
 
@@ -130,33 +135,43 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Software Developer (Freelance + Startup Projects)}{Jan 2023 -- Present}
-      {Remote / Self-driven}{}
+      {\textbf{Founder \& Full Stack Engineer}}{Sept 2024 -- Present}
+      {\textbf{Autonoms Agency} • Remote}{}
       \resumeItemListStart
-        \resumeItem{Built and deployed end-to-end software solutions for industrial, healthcare, and educational sectors.}
-        \resumeItem{Led the development of \textbf{Zorabase}, a Firebase-like server system handling 1500+ concurrent users with real-time DB and custom auth.}
-        \resumeItem{Created \textbf{COSEM}, an AI-powered quotation tool for hydraulic industries, reducing workflow time from days to minutes.}
-        \resumeItem{Developed multiple admin dashboards, user portals, and backend logic with complex JSON-based data handling.}
-        \resumeItem{Worked closely with industrial clients and stakeholders to gather requirements, deploy solutions, and iterate based on feedback.}
+        \resumeItem{Co-founded a digital agency delivering modern web solutions and SEO optimization.}
+        \resumeItem{Acquired \textbf{4 clients}, generating \textbf{35K+ revenue} and delivering all projects on time using \textbf{React/Next.js} and \textbf{Node.js}.}
+        \resumeItem{Boosted client \textbf{SEO rankings by 30\%} on average within the first month.}
+        \resumeItem{Built a reusable UI component library, reducing development time by \textbf{50\%}.}
+        \resumeItem{Developed an \textbf{AI-powered quotation tool} for hydraulic industries, cutting estimation time from days to minutes.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Finalist (4th Place), \textbf{InnovateX – E-Summit 2024}}{Mar 2024}
-      {IIT Bombay \& Somany Impresa Group}{}
+      {\textbf{Software Developer (Freelance + Startup Projects)}}{Jan 2023 -- Aug 2024}
+      {\textbf{Remote / Self-driven}}{}
       \resumeItemListStart
-        \resumeItem{Selected in top 10 teams out of 2250+ nationally for solving real-world logistics and supply chain problems.}
-        \resumeItem{Presented strategy and tech-backed business solution live at IIT Bombay E-Summit, securing 4th place nationally.}
+        \resumeItem{Built and deployed software solutions for industrial, healthcare, and education clients.}
+        \resumeItem{Developed \textbf{Zorabase} — a Firebase-like real-time server handling \textbf{1500+ users} with custom authentication.}
+        \resumeItem{Created \textbf{COSEM} — an AI-driven quotation system for hydraulic industries.}
+        \resumeItem{Designed and maintained dashboards, user portals, and JSON-based backend logic.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {\textbf{Finalist (4th Place) — InnovateX, IIT Bombay E-Summit}}{Mar 2024}
+      {\textbf{IIT Bombay \& Somany Impresa Group}}{}
+      \resumeItemListStart
+        \resumeItem{Ranked \textbf{4th nationally among 2250+ teams} for a tech-driven logistics and supply chain solution.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS-----------
+
+
 \section{Projects}
   \resumeSubHeadingListStart
 
     \resumeProjectHeading
-      {\textbf{Zorabase} $|$ \emph{Python, Redis, Multi-threading, JSON, WebSockets, Firebase Auth}}{}
+      {\textbf{\href{https://github.com/Omkar-Hundre}{Zorabase}} $|$ \emph{Python, Redis, Multi-threading, JSON, WebSockets, Firebase Auth}}{}
       \resumeItemListStart
         \resumeItem{Built a full-fledged Firebase alternative with real-time database, rules engine, and user authentication.}
         \resumeItem{Server supports up to 2000 concurrent users using multi-threading on dedicated hardware.}
@@ -164,7 +179,7 @@
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{COSEM} $|$ \emph{Electron.js, Node.js, AI Integration, JSON DB, Custom Auth System}}{}
+      {\textbf{\href{https://www.youtube.com/watch?v=iWkT6TT8JnM\&feature=youtu.be}{COSEM}} $|$ \emph{Electron.js, Node.js, AI Integration, JSON DB, Custom Auth System}}{}
       \resumeItemListStart
         \resumeItem{Designed a cost estimation tool for hydraulic industries, reducing estimation time from 5–7 days to under 5 minutes.}
         \resumeItem{Used nested JSON data models and custom logic to handle complex quotation generation.}
@@ -172,7 +187,7 @@
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{AI-Powered Patient Monitoring System} $|$ \emph{Python, ML, OpenCV, Speech Synthesis, Sensor Integration}}{}
+      {\textbf{\href{https://www.youtube.com/watch?v=h3A_OyecCoY}{AI-Powered Patient Monitoring System}} $|$ \emph{Python, ML, OpenCV, Speech Synthesis, Sensor Integration}}{}
       \resumeItemListStart
         \resumeItem{Developed a system to monitor patient vitals, movement, and behavior using live camera and sensor data.}
         \resumeItem{Implemented ML models to train on patient habits and provide real-time spoken feedback and alerts.}
@@ -180,22 +195,15 @@
       \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{Jain Bus Tracking System} $|$ \emph{Firebase, HTML/CSS/JS, Geolocation APIs, Admin Panel}}{}
+      {\textbf{\href{https://omkar-hundre.github.io/bustrackjce/}{Jain Bus Tracking System}} $|$ \emph{Firebase, HTML/CSS/JS, Geolocation APIs, Admin Panel}}{}
       \resumeItemListStart
         \resumeItem{Built a multi-role bus tracking platform for college use—students, drivers, and admins.}
         \resumeItem{Admin panel supports real-time route edits, driver assignments, and bus occupancy updates.}
         \resumeItem{Live tracking and ETA visible to students; adopted by the college-wide transport system.}
       \resumeItemListEnd
 
-    \resumeProjectHeading
-      {\textbf{Creative Hydraulics Website + Site Builder} $|$ \emph{HTML, JS, Custom CMS Logic, Hosting}}{}
-      \resumeItemListStart
-        \resumeItem{Designed and deployed a clean portfolio site for an industrial firm with a built-in no-code editor.}
-        \resumeItem{Enabled the client to update site content without external help via a user-friendly builder interface.}
-        \resumeItem{Deployed live with custom domain and optimized performance.}
-      \resumeItemListEnd
-
   \resumeSubHeadingListEnd
+
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
