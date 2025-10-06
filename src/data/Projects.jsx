@@ -58,7 +58,7 @@ export const PROJECTS = [
       "firebase",
       "multithreading",
     ],
-    codeUrl: "https://github.com/shivdutt-B/zorabase",
+    codeUrl: "https://github.com/Omkar-Hundre",
     liveUrl: "https://zorabase-demo.vercel.app/",
     links: [
       {
@@ -69,7 +69,7 @@ export const PROJECTS = [
       {
         type: "Github",
         icon: "github", // changed from <Icons.github ... />
-        href: "https://github.com/shivdutt-B/zorabase",
+        href: "https://github.com/Omkar-Hundre",
       },
     ],
   },

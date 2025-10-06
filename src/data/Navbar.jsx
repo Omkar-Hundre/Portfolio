@@ -29,7 +29,7 @@ export const Contact = {
       name: "Twitter",
       url: "https://x.com/shivdutt059",
       icon: Icons.x,
-      navbar: true,
+      navbar: false,
     },
     Instagram: {
       name: "Instagram",

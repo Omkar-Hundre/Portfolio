@@ -113,7 +113,7 @@ export function DSAStats() {
   );
 
   const platformUrls = {
-    leetcode: "https://leetcode.com/u/shivdutt-B/",
+    leetcode: "https://leetcode.com/u/Omkar-Hundre/",
     geeksforgeeks: "https://www.geeksforgeeks.org/user/shivdu9f79/",
   };
 

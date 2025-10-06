@@ -18,7 +18,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-calistoga font-[100] text-sm underline transition-colors duration-300 group-hover:text-blue-700"
-                href="https://github.com/shivdutt-B"
+                href="https://github.com/Omkar-Hundre"
               >
                 View all
               </a>

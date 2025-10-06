@@ -70,7 +70,7 @@ const ACHIEVEMENTS = [
     position: "Minister Presentation",
     organization: "Karnataka Government",
     logoUrl: COSEMMinister,
-    href: "https://github.com/shivdutt-B/cosem",
+    href: "https://github.com/Omkar-Hundre",
     date: "2024",
     category: "Government Recognition",
     description: "Presented to Health Education Minister and MLAs. Deployed in 3 industrial units.",
